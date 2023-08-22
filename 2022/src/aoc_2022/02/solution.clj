@@ -1,7 +1,7 @@
 (ns aoc-2022.02.solution
   (:require [clojure.string :as s]))
 
-(def file (slurp "02/input.txt"))
+(def file (slurp "src/aoc_2022/02/input.txt"))
 
 ; Part 1 Rules
 ; A for Rock, B for Paper, and C for Scissors

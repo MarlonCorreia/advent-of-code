@@ -2,7 +2,7 @@
   (:require [clojure.string :as s]
             [clojure.set :as set]))
 
-(def file (slurp "03/input.txt"))
+(def file (slurp "src/aoc_2022/03/input.txt"))
 
 (defn part-1 []
   (->> (s/split file #"\n")

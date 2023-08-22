@@ -1,7 +1,7 @@
 (ns aoc-2022.01.solution
   (:require [clojure.string :as s]))
 
-(def file (slurp "01/input.txt"))
+(def file (slurp "src/aoc_2022/01/input.txt"))
 
 (defn part-1 []
   (->> (s/split file #"\n\n")
